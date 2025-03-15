@@ -15,7 +15,7 @@ setup(name='ocr4all_helper_scripts',
       license="MIT License",
       entry_points={
             'console_scripts': [
-                  'ocr4all-helper-scripts = ocr4all_helper_scripts.cli: cli'
+                  'ocr4all-helper-scripts = ocr4all_helper_scripts:cli'
             ]
       },
       classifiers=[
